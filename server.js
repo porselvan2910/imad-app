@@ -5,23 +5,23 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-
 var articleOne = {
     title:'Article one | Porselvan',
     heading:'Article one',
-    date :'Aug 15, 2017'
-    content : `
-  <p>
+    date :'Aug 15, 2017',
+    content:`<p>
+    This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
+   </p>
+   <p>
    This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
-  </p>
-  <p>
-  This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
-  </p>
-  <p>
-  This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
-  </p>` 
-};
+   </p>
+   <p>
+   This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
+   </p>` 
+        
 
+
+};
 function createTempalte(data) {
         var title=data.title;
         var date=data.date;
