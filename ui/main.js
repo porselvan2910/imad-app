@@ -1,1 +1,1 @@
-console.log('Loaded!');
+console.log('Javascript is awesome');
